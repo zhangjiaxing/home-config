@@ -31,3 +31,7 @@ set incsearch "搜索中匹配
 
 set mouse=v
 
+set iskeyword+=#
+iabbrev #time <C-r>=strftime("%Y-%m-%d %H:%M:%S")
+"set iskeyword&
+

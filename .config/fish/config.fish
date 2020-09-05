@@ -17,7 +17,7 @@ function fish_user_key_bindings
     bind '[24~' 'cd ~/myssh/; commandline -f repaint; commandline -i "./myssh.sh sessions.d/"'
 end
 
-# powerline
-set fish_function_path $fish_function_path "/usr/share/powerline/fish"
-powerline-setup
+## powerline
+#set fish_function_path $fish_function_path "/usr/share/powerline/fish"
+#powerline-setup
 

@@ -4,15 +4,18 @@ alias cd..="cd .."
 alias cd...="cd ../.."
 alias cd....="cd ../../.."
 
+alias -="cd -"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
-set PATH $PATH ~/.local/bin/
-
-alias pd=pushd
+alias f=pushd   # forward
+alias b=popd    # backward
+alias d=dirs
 
 set fish_greeting
+
+set PATH $PATH ~/.local/bin/
 
 function fish_user_key_bindings
     bind '[24~' 'cd ~/myssh/; commandline -f repaint; commandline -i "./myssh.sh sessions.d/"'

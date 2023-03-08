@@ -40,3 +40,6 @@ set iskeyword+=#
 iabbrev #time <C-r>=strftime("%Y-%m-%d %H:%M:%S")
 "set iskeyword&
 
+nmap <F5> a<C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR><Esc>
+imap <F5> <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
+

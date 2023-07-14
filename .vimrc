@@ -45,4 +45,3 @@ nmap <F5> i<C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR><Esc>
 "插入模式按f5插入当前时间
 imap <F5> <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
 
-

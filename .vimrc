@@ -40,3 +40,9 @@ set iskeyword+=#
 iabbrev #time <C-r>=strftime("%Y-%m-%d %H:%M:%S")
 "set iskeyword&
 
+"命令模式按f5插入当前时间
+nmap <F5> i<C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR><Esc>
+"插入模式按f5插入当前时间
+imap <F5> <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
+
+

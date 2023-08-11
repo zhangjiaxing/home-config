@@ -15,7 +15,8 @@ alias d=dirs
 
 set fish_greeting
 
-set PATH $PATH ~/.local/bin/
+set -gx PATH $PATH ~/.local/bin/
+set -gx GPG_TTY (tty)
 
 function fish_user_key_bindings
     bind '[24~' 'cd ~/myssh/; commandline -f repaint; commandline -i "./myssh.sh sessions.d/"'
